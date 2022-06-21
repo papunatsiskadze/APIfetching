@@ -1,6 +1,22 @@
 body{
     margin: 0;
-    background-color: crimson;
     justify-content: center;
     display: flex;
+}
+.user {
+    border: solid black;
+    width: 220px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    justify-content: center;
 }
